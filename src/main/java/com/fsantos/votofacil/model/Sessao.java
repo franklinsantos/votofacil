@@ -38,6 +38,8 @@ public class Sessao
 
    private LocalDateTime dataHoraFim;
 
+   private SituacaoSessao situacao;
+
    @Override
    public boolean equals(Object o)
    {

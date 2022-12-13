@@ -1,4 +1,4 @@
-package com.fsantos.votofacil.kafka;
+package com.fsantos.votofacil.messenger;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -8,9 +8,7 @@ import org.mockito.MockitoAnnotations;
 import org.slf4j.Logger;
 import org.springframework.kafka.core.KafkaTemplate;
 
-import static org.mockito.Mockito.*;
-
-class ConsumerTest
+class ConsumidorTest
 {
 
    @Mock
@@ -18,7 +16,7 @@ class ConsumerTest
    @Mock
    Logger logger;
    @InjectMocks
-   Consumer consumer;
+   Consumidor consumidor;
 
    @BeforeEach
    void setUp()
@@ -29,6 +27,6 @@ class ConsumerTest
    @Test
    void testConsume()
    {
-      consumer.consume("message");
+      consumidor.consume("message");
    }
 }
