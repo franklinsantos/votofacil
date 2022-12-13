@@ -28,6 +28,7 @@ API REST para gerenciamento de sessões de votação.
 - MapStruct
 - Kafka
 - Swagger
+- Log4j
 - JUnit
 - Mockito
 
