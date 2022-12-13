@@ -16,7 +16,7 @@ API REST para gerenciamento de sessões de votação.
     Foram criados produtor e consumidor de resultados usando o servidor de messageria Kafka.
 
 #### 4 - Versionamento da API
-    Os controllers foram configurados para responder com o prefixo api/v1/endpoint. Para as próximas versões o prefixo será incrementado em cada controller.
+    Os controllers foram configurados para responder com o prefixo api/v1/<endpoint>. Para as próximas versões o prefixo será incrementado em cada controller.
 
 ## Ambiente / Bibliotecas
 
