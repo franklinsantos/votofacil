@@ -1,0 +1,13 @@
+{
+  "properties": [
+    {
+      "name": "votofacil.sessao.tempo-expiracao",
+      "type": "java.lang.String",
+      "description": "Description for votofacil.sessao.tempo-expiracao."
+    },
+    {
+      "name": "votofacil.associado.validacao-cpf-url",
+      "type": "java.lang.String",
+      "description": "Description for votofacil.associado.validacao-cpf-url."
+    }
+  ] }
