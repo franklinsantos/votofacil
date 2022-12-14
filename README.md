@@ -23,7 +23,7 @@ API REST para gerenciamento de sessões de votação.
 - Java 11
 - Spring Boot 2.7.6
 - Mysql 5.7
-- Docker
+- Docker 20.10.21
 - Maven 3.8.1
 - MapStruct
 - Kafka
